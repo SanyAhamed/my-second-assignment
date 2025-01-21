@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Sharing Display Flex Class */
+.display-flex{
+    display: flex;
+}
+
+/* Sharing Color*/
+.orange{
+    color: rgb(254, 163, 1);
+}
+.sky-blue{
+    color: rgb(1, 172, 253);
+}
+.aqua{
+    color: rgb(5, 212, 223);
+}
+.purple{
+    color: rgb(93, 88, 239);
+}
+/* The Header Section Start Here*/
+.head-section{
+    width: 100%;
+    height: 6.375rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container{
+    width: 1160px;
+    height: 62px;
+    justify-content: space-between; 
+    align-items: center;  
+}
+
+.nav-school-name{
+    justify-content: center;
+    align-items: center;
+}
+
+.school-name{
+    margin-left: 0.6875rem;
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-link{
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.primary-btn{
+    width: 12.3125rem;
+    height: 3.125rem;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+}
+/* The Header Section End Here*/
+
+/* Section One Start Here */
+.section-one{
+    justify-content: center;
+}
+.students-container{
+    justify-content: space-between;
+    width: 72.413125rem;
+    height: 35.9375rem;
+}
+
+.students-self{
+    width: 40rem;
+    height: 35.9375rem;
+}
+
+.boy-container{
+    width: 29.288125rem;
+    height: 35.9375rem;
+}
+
+.boys-tittle-name{
+    font-family: Quicksand;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-top: 7.625rem;
+}
+
+.boys-self{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
+
+.primary-btn-2{
+    background: rgb(17, 17, 17);
+    margin-top: 1.5rem;
+}
+/* Section One End Here */
+
+/* Section Two Start Here */
+.section-two{
+    width: 1440px;
+    height: 879px;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    background-image: url("assets/bg.png");
+    margin: 0 auto;
+}
+
+/* Sharing Heading Part*/
+.card-heading{
+   width: 460.61px;
+   height: 57.5px;
+   margin-top: 60px;
+}
+/* Sharing Heading Part */
+.card-head{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.card-container{
+    width: 1160px;
+    height: 481.5px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 0 28.29px;
+    margin-top: 80px;
+}
+
+.card-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 367.8px;
+    height: 476.78px;
+    background-color: pink;
+    text-align: center;
+}
+
+.card-box-img{
+    width: 132.61px;
+    height: 135.21px;
+    margin: 53px 117px 0px 117.59px;
+}
+
+
+.card-tittles{
+    width: 211.06px;
+    height: 31.13px;
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 24.52px;
+    font-weight: 700;
+    margin-top: 32.8px;
+    margin-left: 78.57px;   
+}
+
+.card-description{
+    width: 286.26px;
+    height: 74.51px;
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 28.3px;
+    margin-top: 33.48px;
+    margin-left: 40.88px;
+}
+
+.read-more{
+    width: 79.65px;
+    height: 18.86px;
+    color: rgb(100, 200, 255);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    margin-top: 38.67px;
+    margin-left: 132.46px;
+}
+
+#red-more-btn{
+    color: rgb(255, 102, 0);
+}
+
+#red-more-btn-one{
+    color: blueviolet;
+}
+#card-box-one{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+#card-box-two{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+#card-box-three{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+.icon-container{
+    width: 130px;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.less-than,.greater-than{
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    font-family: Font Awesome 5 Free;
+    font-size: 24px;
+    font-weight: 900;
+}
+/* Section Two Start Here */
+
+/* Section Three Start Here */
+.section-three{
+    width: 100%;
+    height: 1018.02px;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    background-image: url("assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);;
+    margin: 0 auto;
+}
+
+.stories-container{
+    width: 1160px;
+    height: 630.52px;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.baby-container{
+    position: relative;
+    width: 540.27px;
+    height: 630.52px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.baby-btn{
+    position: absolute;
+    width: 174.51px;
+    height: 47.93px;
+    border: none;
+    border-radius: 47.93px;
+    margin-top: 314.14px;
+    margin-left: 38.35px;
+    background: rgb(60, 216, 232);
+    font-family: Raleway;
+}
+.baby-img{
+    border-radius: 16px 16px 0px 0px;
+    background: url(),rgb(217, 217, 217);
+}
+
+.baby-tittle{
+    width: 402.49px;
+    height: 69.98px;
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38.35px;
+    margin-top: 61.51px;
+    margin-left: 38.35px;
+}
+
+.baby-description{
+    width: 433.06px;
+    height: 75.74px;
+    color: rgb(102, 102, 102);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    margin-top: 51.77px;
+    margin-left: 38.35px;
+}
+
+.babys-container{
+    position: relative;
+    width: 601px;
+    height: 622.4px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0 18px;
+}
+
+.babys-pic{
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.babys-img{
+    border-radius: 16px 16px 0px 0px;
+    background: url(),rgb(255, 255, 255);
+}
+
+.babys-btn{
+   position: absolute;
+   width: 174.51px;
+   height: 38.35px;
+   margin-top: 157.81px;
+   margin-left: 38.35px;
+   color: rgb(255, 255, 255);
+   font-family: Raleway;
+   font-size: 15.34px;
+   font-weight: 500;
+   line-height: 28.76px;
+   border: none;
+   border-radius: 47.93px;
+   background: rgb(149, 178, 38);
+}
+
+#babys-btn-two{
+    background: rgb(93, 88, 240);
+}
+
+#babys-btn-four{
+    width: 127.44px;
+    height: 38.35px;
+}
+
+.babys-description{
+    width: 198.04px;
+    height: 47.93px;
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 15.34px;
+    font-weight: 700;
+    line-height: 28.76px;
+    margin: 42.12px 54.75px 33.51px 37.95px;
+}
+
+.view-btn{
+    width: 197px;
+    height: 50px;
+    margin-top: 80px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+}
+/* Section Three End Here */
+
+/* Footer Start Here */
+footer{
+    width: 100%;
+    height: 519px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(153, 11, 110);
+ }
+
+.footer-container{
+    width: 1070.91px;
+    height: 222px;
+}
+
+.footer-box-one{
+    width: 578.73px;
+    height: 222px;
+}
+
+.footer-head{
+    width: 206.11px;
+    height: 80px;
+    margin-left: 10.7px;
+    color: white;
+}
+
+.pizza{
+    width: 399.02px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 35.68px;
+}
+
+.footer-box-two{
+    width: 492.18px;
+    height: 222px;
+}
+
+.footer-child{
+    width: 246.09px;
+    height: 222px;
+}
+
+.about-school{
+    width: 156.36px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-links li{
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-top: 24px;
+}
+
+.icon-header{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 26px;
+    font-weight: 700;
+    margin-left: 15.54px;
+    margin-right: 12.15px;
+    text-align: right;
+}
+
+.footer-icon{
+    margin: 32px 10.18px 0px 18.15px;
+    text-align: right;
+}
+/* Footer Start Here */
+
+/* Responsive For Mobile */
+@media screen and (min-width: 577px){
+     .nav-icon{
+        display: none;
+     }      
+}
+@media screen and (max-width: 576px) {
+    .nav-container{
+        flex-direction: column;
+    }
+
+    .nav-link, .school-name, .primary-btn{
+       display: none;
+    }
+
+    .nav-img{
+        margin-left: 0;
+    }
+
+    .nav-school-name{
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .nav-icon{
+        font-size: 40px;
+    }
+    .head-section{
+        justify-content: flex-start;
+    }
+    /* Section one responsive here */
+    .students-container{
+        flex-direction: column;
+        height: auto;
+        padding: 0 50px !important;
+    }
+    .students-self{
+        order: 2;
+        width: auto;
+    }
+    /* Section two responsive here */
+    .section-two{
+        width: auto;
+        height: auto;
+    }
+    .card-container{
+        width: auto;
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .icon-container{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    /* Section tree responsive here */
+    .section-three {
+        width: 100%;
+        height: auto;
+        padding: 0 10px;
+    }
+    .stories-container {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+    .baby-container{
+        width: auto;
+        display: none;
+    }
+    .babys-container{
+        width: auto;
+        height: auto;
+        gap: 7px 7px;
+    }
+
+    .view-btn{
+        margin-bottom: 50px;
+    }
+    /* Footer section responsive here */
+    footer{
+        height: auto;
+    }
+    .footer-container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        margin-left: 35px;
+    }
+    .footer-box-one{
+        height: auto;
+    }
+    .footer-box-two {
+        flex-direction: column;
+        height: auto;
+    }
+    .footer-child{
+        height: auto;
+        width: auto;
+    }
+    .icon-header{
+        margin-left: 0px;
+        text-align: start;
+    }
+    .footer-icon{
+        margin: 0px;
+        text-align: start;
+    }
+   
+}
